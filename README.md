@@ -16,6 +16,10 @@ You can install the development version of animalsounds from
 [GitHub](https://github.com/) with:
 
 ``` r
+# Install stable version from CRAN
+install.packages("animalsounds")
+
+# Install development version from GitHub
 # install.packages("pak")
 pak::pak("EllaKaye/animalsounds")
 ```
