@@ -15,7 +15,8 @@ animal_sounds(animal, sound)
 A string with the animal and sound
 }
 \description{
-Prints the sound that an animal makes.
+Prints the \strong{sound} that an \emph{animal} makes.
+It is a wrapper to \code{\link[=paste0]{paste0()}}.
 }
 \examples{
 animal_sounds("dog", "woof")
