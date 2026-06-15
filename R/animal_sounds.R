@@ -24,7 +24,8 @@ check_arg <- function(arg, n = 1) {
     cli::cli_abort(
       c("{.var {rlang::caller_arg(arg)}} must be a character vector of length {n}",
         "i" = "It was {.type {arg}} of length {length(arg)} instead."),
-      call = rlang::caller_env()
+      call = rlang::caller_env(),
+      class = "error_not_character_length_n"
     )
   }
 }
