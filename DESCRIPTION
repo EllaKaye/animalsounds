@@ -14,3 +14,6 @@ RoxygenNote: 8.0.0
 Imports: 
     cli,
     rlang
+Depends: 
+    R (>= 3.5)
+LazyData: true
