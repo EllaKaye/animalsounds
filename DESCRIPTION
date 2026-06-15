@@ -10,4 +10,7 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 URL: https://github.com/EllaKaye/animalsounds
 BugReports: https://github.com/EllaKaye/animalsounds/issues
-Config/roxygen2/version: 8.0.0
+RoxygenNote: 8.0.0
+Imports: 
+    cli,
+    rlang
