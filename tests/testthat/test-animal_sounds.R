@@ -13,3 +13,7 @@ test_that("animal_sounds handles invalid input with class", {
   expect_error(animal_sounds(c("dog", "cat"), "woof"),
                class = "error_not_character_length_n")
 })
+
+test_that("error message for invalid output", {
+  expect_snapshot(animal_sounds(c("dog", "cat"), "woof"), error = TRUE)
+})
