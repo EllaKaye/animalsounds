@@ -3,3 +3,5 @@
 ^\.positai$
 ^\.claude$
 ^data-raw$
+^LICENSE\.md$
+^README\.Rmd$
